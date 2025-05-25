@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.first-brand{
+    
+    color: #e9e9e9 !important;
+    padding: 14px 0px;
+    background-color: #3b3b3b;
+}
+.first-brand p{
+    margin-bottom: 0px !important;
+    font-size: 18px !important;
+    letter-spacing: -0.5px !important;
+    font-weight: 600 !important;
+}
+.brand-button{
+    border-left: 1px solid #737373 !important;
+    justify-content: center;
+    background-color: #3b3b3b;
+}
+.brand-button:focus{
+    border: none !important;
+}
+.brand-button button{
+    font-size: 18px ;
+    font-weight: 600 !important;
+    color: #e9e9e9 !important;
+    padding: 14px 22px;
+}
+/* navbar */
+.navbar{
+    border-bottom: 1px solid #333333 ;
+    background-color: #000;
+   justify-content: space-between;
+   padding: 1em 4em !important;
+}
+.navbar-brand img{
+    max-height: 35px;
+}
+.nav-link{
+    color: #fff !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    padding: 0px 20px !important;
+}
+form .nav-link{
+    font-size: 18px !important;
+    color: #888;
+}
+/* banner */
+.outer-banner{
+    padding: 4% 8% !important;
+    background-color: #000;
+}
+.banner{
+    height: 60vh !important;
+   
+}
+.first-half{
+    padding: 68px 0 !important;
+}
+.first-half h1{
+    font-size: 50px;
+    font-weight: 800 !important;
+    color: #fff;
+    padding-bottom: 20px !important;
+    letter-spacing: -1px;
+}
+.first-half h4{
+    color: #fff ;
+}
+.get-buton{
+    background-color: rgb(255, 91, 32) !important;
+    color: #eeeeee !important;
+    font-size: 18px !important;
+}
+.second-half{
+    background-image: url('hero-LL-landing-page.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px 60px ;
+}
+
+/* platform */
+.platform{
+    padding-top: 50px;
+    text-align: center;
+    background-color: #000;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.platform-row{
+    padding: 50px 50px 0px 100px;
+}
+.platform-row img{
+    max-width: 500px;
+}
+
+.platform-row h3{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.platform-left {
+    padding-right: 20px;
+}
+.platform h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+}
+.platform h4{
+    color: #fff;
+    font-size: 22px;
+}
+.vert-parent{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.vert-line{
+    background-color: #333333;
+    width: 1px !important;
+    height: 100%;
+}
+@media screen and (max-width:768px) {
+    .first-brand p{
+        font-size: 16px !important;
+    }
+    .brand-button{
+        padding: 0px !important;
+
+    }
+    .brand-button button{
+        font-size: 14px;
+        padding: 15px 0px 0px 3px !important;
+
+    }
+    .platform-row img {
+        max-width: 300px;
+    }
+    .first-half{
+        padding-right: 10px !important;
+    }
+    .first-half h1{
+        font-size: 40px;
+    }
+    .first-half h4{
+        font-size: 20px;
+    }
+    .first-half button{
+        padding: 5px 20px;
+        margin-top: 10px;
+    }
+    .second-half{
+        height: 60vh;
+        max-width: 300px;
+    }
+    .platform{
+        height: 70vh;
+    }
+    .platform h1{
+        font-size: 30px;
+    }
+    .platform h4{
+        font-size: 15px;
+    }
+    .navbar{
+        padding: 5px 10px !important;
+    }
+}
